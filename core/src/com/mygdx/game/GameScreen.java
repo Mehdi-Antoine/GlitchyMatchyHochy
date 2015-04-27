@@ -18,6 +18,7 @@ import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
@@ -64,6 +65,8 @@ public class GameScreen implements Screen {
         // create the raindrops array and spawn the first raindrop
         raindrops = new Array<Rectangle>();
         spawnRaindrop();
+
+
 
     }
 
